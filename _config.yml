@@ -198,6 +198,9 @@ kramdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
+future: true
+published: true
+
 defaults:
   -
     scope:
