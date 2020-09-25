@@ -211,7 +211,6 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
-      show-avatar: true
       
       # Use tags index page and make tags on each post clickable
 link-tags: true
