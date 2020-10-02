@@ -46,7 +46,7 @@ Upload the package to GitHub."
 To start making your own package, youre going to want to go to the rop right where it says R project and click new.
 
 ```{r eval=FALSE, include=FALSE}
-install.packages("NBAloveR")
+
 
 library(dplyr)
 library(knitr)
