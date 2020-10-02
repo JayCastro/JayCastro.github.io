@@ -2,14 +2,7 @@
 title: "Creating an R Package"
 author: "Jacob Castro"
 date: "9/22/2020" 
-output: 
-  html_document:
-    code_folding: hide
-    df_print: paged
-    theme: flatly
-    highlight: haddock
-    toc: yes
-    toc_float: yes
+layout: page
 ---
 <br>  
   
