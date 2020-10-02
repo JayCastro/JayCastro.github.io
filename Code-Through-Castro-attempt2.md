@@ -13,17 +13,7 @@ output:
 ---
 <br>  
   
-```{r  include= FALSE}
 
-
-knitr::opts_chunk$set(echo = TRUE,
-                      message= FALSE,
-                      warning = FALSE)
-
-library(dplyr)
-
-
-```
 
 # Creating an R package
 
@@ -45,31 +35,22 @@ Upload the package to GitHub."
 
 To start making your own package, youre going to want to go to the rop right where it says R project and click new.
 
-```{r eval=FALSE, include=FALSE}
 
+![](/assets/img/12.png)
 
-library(dplyr)
-library(knitr)
-
-```
-
-```{r presure1, echo=FALSE, fig.cap="New Project", out.width = '100%'}
-knitr::include_graphics("C:/Users/Jacob/Documents/12.png")
-```
 <br>
 
 You're going to click new directory and then start a new project with dev tools
 <br>
-```{r pressure2, echo=FALSE, fig.cap="New Directory", out.width = '100%'}
-knitr::include_graphics("C:/Users/Jacob/Documents/1.png")
-```
+
+![](/assets/img/1.png)
+
 <br>
 
 Once started you can edit the description in R and complete with the information thats needed
 <br>
-```{r pressure3, echo=FALSE, fig.cap="Description", out.width = '100%'}
-knitr::include_graphics("C:/Users/Jacob/Documents/3.png")
-```
+
+![](/assets/img/3.png)
 
 <br>
 
@@ -78,23 +59,21 @@ knitr::include_graphics("C:/Users/Jacob/Documents/3.png")
 
 To add Functions You have to Ctrl + Shift + N. Then You will add you function and your function skeleton. To add a skeleton without copy and pasting, you can Ctrl + Alt + Shift + R.  Then you want to save it as the name of the function and it will be saved under name space. Youll see the file kb memory get bigger as you add more functions.
 <br>
-```{r pressure4, echo=FALSE, fig.cap="Function", out.width = '100%'}
-knitr::include_graphics("C:/Users/Jacob/Documents/5.png")
-```
+![](/assets/img/5.png)
 <br>
 
 To make sure the function is working properly, you want to hit check and make sure you have no errors and if you do, fix them. Then after your check is done, install and restart. You might have to do this twice to get it to work. 
 <br>
-```{r pressure5, echo=FALSE, fig.cap="Double check work", out.width = '100%'}
-knitr::include_graphics("C:/Users/Jacob/Documents/6.png")
-```
+
+![](/assets/img/6.png)
+
 <br>
 
 # Test It
 To make sure your function is working type your package name in the console and then type out the fucntion. 
-```{r pressure6, echo=FALSE, fig.cap="Check Function", out.width = '100%'}
-knitr::include_graphics("C:/Users/Jacob/Documents/7.png")
-```
+
+![](/assets/img/7.png)
+
 # GitHub Hosting
 You have a couple of options for sharing your new package with others. You could submit the package to the CRAN so that everyone in the world could install it in R using install.packages(“montyhall”).
 
