@@ -108,6 +108,6 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
   
   .gs-section-02 h3{color: purple}
   
-  .gs-section-02 p{font-size: 20px; color: pink}
+  .gs-section-02 p{font-size: 20px; color: black}
   
 </style>
